@@ -4,12 +4,10 @@ let result = 0;
 
 do {
     number = +prompt('Enter a number');
-    if (number === null) break
 } while (isNaN(number));
 
 do {
     anotherNumber = +prompt('Enter a second number');
-    if (anotherNumber === null) break
 } while (isNaN(anotherNumber));
 
 let operation = prompt('What do you want to do? (add/mul/sub/div)');
